@@ -1,9 +1,13 @@
 package com.livros.apirest.resource;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.livros.apirest.models.Livro;
 import com.livros.apirest.repository.LivroRepository;
 
 @RestController
@@ -14,7 +18,7 @@ public class LivroResource {
 	LivroRepository livroRepository;
 	
 	@GetMapping("/livros")
-	public List<Livros> listaLivros(){
+	public List<Livro> listaLivros(){
 		
 	}
 
