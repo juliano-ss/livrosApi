@@ -19,7 +19,7 @@ public class LivroResource {
 	
 	@GetMapping("/livros")
 	public List<Livro> listaLivros(){
-		
+		return livroRepository.findAll();
 	}
 
 }
