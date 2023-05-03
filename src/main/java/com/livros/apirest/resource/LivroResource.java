@@ -12,5 +12,8 @@ public class LivroResource {
 	
 	@Autowired
 	LivroRepository livroRepository;
+	
+	@GetMapping("/livros")
+	
 
 }
