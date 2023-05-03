@@ -58,5 +58,4 @@ public class Livro implements Serializable {
 		this.valor = valor;
 	}
 
-
 }
