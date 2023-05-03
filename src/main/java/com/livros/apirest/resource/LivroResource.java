@@ -14,6 +14,8 @@ public class LivroResource {
 	LivroRepository livroRepository;
 	
 	@GetMapping("/livros")
-	
+	public List<Livros> listaLivros(){
+		
+	}
 
 }
