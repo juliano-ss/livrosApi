@@ -22,10 +22,10 @@ public class LivroResource {
 	public List<Livro> listaLivros(){
 		return livroRepository.findAll();
 		
-		
-		@GetMapping("/livro/{id}")
-		public Livro listaLivroUnico(@PathVariable(value="id") long id){
-			return livroRepository.findAll();	
+	}	
+	 @GetMapping("/livro/{id}")
+	 public Livro listaLivroUnico(@PathVariable(value="id") long id){
+		 return livroRepository.findById(id);	
 	}
 
 }
