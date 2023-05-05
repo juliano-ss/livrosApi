@@ -20,9 +20,7 @@ public class Livro implements Serializable {
 	private long id;
 	
 	private String nome;
-	
     private BigDecimal quantidade;
-	
 	private BigDecimal valor;
 	
 	
